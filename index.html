@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Godded Seed Confab 2025 | GREATNESS</title>
+    <title>Godded Seed Confab - GREATNESS</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --ph-blue: #1e88e5;
-            --lagos-gold: #ffc107;
+            --primary-color: #FF5226; /* Red-Orange */
             --dark-bg: #0c1220;
             --card-bg: #1a2439;
-            --accent: #8e44ad;
+            --accent: #0ea5e9;
             --light: #f8fafc;
             --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             --shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
@@ -26,7 +24,7 @@
         }
         
         body {
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Hagia Pro', 'Montserrat', sans-serif;
             color: var(--light);
             background-color: var(--dark-bg);
             line-height: 1.7;
@@ -34,7 +32,7 @@
         }
         
         h1, h2, h3, h4, h5 {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Hagia Pro', 'Montserrat', sans-serif;
             font-weight: 700;
             line-height: 1.3;
         }
@@ -68,14 +66,9 @@
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
         }
         
-        .btn-ph {
-            background: linear-gradient(135deg, var(--ph-blue), #0d47a1);
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary-color), #d84315);
             color: white;
-        }
-        
-        .btn-lagos {
-            background: linear-gradient(135deg, var(--lagos-gold), #ff8f00);
-            color: #333;
         }
         
         /* Navigation */
@@ -108,15 +101,15 @@
         .logo {
             font-size: 1.8rem;
             font-weight: 800;
-            color: var(--accent);
+            color: var(--primary-color);
             text-decoration: none;
             display: flex;
             align-items: center;
+            font-family: 'Rockybilly', cursive;
         }
         
         .logo span {
             color: var(--light);
-            font-family: 'Montserrat', sans-serif;
         }
         
         .nav-links {
@@ -145,7 +138,7 @@
             left: 0;
             width: 0;
             height: 2px;
-            background: var(--accent);
+            background: var(--primary-color);
             transition: var(--transition);
         }
         
@@ -154,7 +147,7 @@
         }
         
         .nav-links a:hover {
-            color: var(--accent);
+            color: var(--primary-color);
         }
         
         .mobile-toggle {
@@ -200,19 +193,11 @@
         
         .hero h1 {
             font-size: clamp(2.8rem, 5.5vw, 4.8rem);
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
             letter-spacing: 2px;
             line-height: 1.1;
-            text-transform: uppercase;
-        }
-        
-        .hero .theme {
-            font-size: clamp(1.8rem, 3.5vw, 3rem);
-            color: var(--accent);
-            margin-bottom: 20px;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            letter-spacing: 5px;
+            font-family: 'Hagia Pro', sans-serif;
         }
         
         .hero p {
@@ -223,6 +208,7 @@
             margin-left: auto;
             margin-right: auto;
             opacity: 0.9;
+            font-family: 'Codec Pro', sans-serif;
         }
         
         .btn-container {
@@ -248,7 +234,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%238e44ad' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+            background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23FF5226' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
             opacity: 0.2;
         }
         
@@ -260,9 +246,10 @@
         .section-title {
             font-size: 2.8rem;
             margin-bottom: 20px;
-            color: var(--accent);
+            color: var(--primary-color);
             position: relative;
             display: inline-block;
+            font-family: 'Hagia Pro', sans-serif;
         }
         
         .section-title:after {
@@ -273,7 +260,7 @@
             transform: translateX(-50%);
             width: 80px;
             height: 4px;
-            background: var(--accent);
+            background: var(--primary-color);
             border-radius: 2px;
         }
         
@@ -282,6 +269,7 @@
             max-width: 700px;
             margin: 0 auto;
             opacity: 0.85;
+            font-family: 'Codec Pro', sans-serif;
         }
         
         .about-content {
@@ -294,6 +282,7 @@
             font-size: 1.3rem;
             margin-bottom: 30px;
             line-height: 1.8;
+            font-family: 'Codec Pro', sans-serif;
         }
         
         /* Speakers Section */
@@ -329,7 +318,7 @@
             width: 180px;
             height: 180px;
             border-radius: 50%;
-            border: 5px solid var(--accent);
+            border: 5px solid var(--primary-color);
             margin: 40px auto 25px;
             overflow: hidden;
             background-size: cover;
@@ -349,10 +338,11 @@
         .speaker-info h3 {
             font-size: 1.6rem;
             margin-bottom: 8px;
+            font-family: 'Hagia Pro', sans-serif;
         }
         
         .speaker-info .role {
-            color: var(--accent);
+            color: var(--primary-color);
             font-weight: 600;
             margin-bottom: 20px;
             font-size: 1.1rem;
@@ -361,6 +351,7 @@
         .speaker-info p {
             font-size: 1.05rem;
             opacity: 0.9;
+            font-family: 'Codec Pro', sans-serif;
         }
         
         /* Register Section */
@@ -393,6 +384,7 @@
         .register h2 {
             font-size: 2.8rem;
             margin-bottom: 20px;
+            font-family: 'Hagia Pro', sans-serif;
         }
         
         .register p {
@@ -403,6 +395,7 @@
             margin-left: auto;
             margin-right: auto;
             opacity: 0.9;
+            font-family: 'Codec Pro', sans-serif;
         }
         
         /* Footer */
@@ -428,7 +421,8 @@
         .footer-title {
             font-size: 1.4rem;
             margin-bottom: 25px;
-            color: var(--accent);
+            color: var(--primary-color);
+            font-family: 'Hagia Pro', sans-serif;
         }
         
         .footer-links {
@@ -444,10 +438,11 @@
             text-decoration: none;
             transition: var(--transition);
             opacity: 0.8;
+            font-family: 'Codec Pro', sans-serif;
         }
         
         .footer-links a:hover {
-            color: var(--accent);
+            color: var(--primary-color);
             opacity: 1;
         }
         
@@ -471,7 +466,7 @@
         }
         
         .social-links a:hover {
-            background-color: var(--accent);
+            background-color: var(--primary-color);
             transform: translateY(-5px);
         }
         
@@ -480,6 +475,7 @@
             padding-top: 40px;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             opacity: 0.7;
+            font-family: 'Codec Pro', sans-serif;
         }
         
         /* Responsive Design */
@@ -551,11 +547,6 @@
                 font-size: 2.4rem;
             }
             
-            .hero .theme {
-                font-size: 1.5rem;
-                letter-spacing: 3px;
-            }
-            
             .hero p {
                 font-size: 1.1rem;
             }
@@ -589,14 +580,17 @@
             }
         }
     </style>
+    <!-- Font imports -->
+    <link href="https://fonts.cdnfonts.com/css/codec-pro" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/hagia" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/rockybilly" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
             <a href="#" class="logo">
-                <i class="fas fa-seedling"></i>
-                <span>Godded Seed</span>
+                Godded Seed
             </a>
             
             <ul class="nav-links">
@@ -617,11 +611,10 @@
     <section class="hero" id="home">
         <div class="hero-content">
             <h1>Godded Seed Confab</h1>
-            <div class="theme">GREATNESS</div>
-            <p>November 29, 2025 | Port Harcourt & Lagos</p>
+            <p>GREATNESS | 29th November, 2025 | Port Harcourt & Lagos</p>
             <div class="btn-container">
-                <a href="#" class="btn btn-ph">Register for Port Harcourt</a>
-                <a href="#" class="btn btn-lagos">Register for Lagos</a>
+                <a href="https://lu.ma/q8fonhk4" class="btn btn-primary">Register for Port Harcourt</a>
+                <a href="https://lu.ma/5ufh1xlg" class="btn btn-primary">Register for Lagos</a>
             </div>
         </div>
     </section>
@@ -630,13 +623,13 @@
     <section class="about" id="about">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">About the Confab</h2>
-                <p class="section-subtitle">Unlocking the seed of greatness within</p>
+                <h2 class="section-title">About the Event</h2>
+                <p class="section-subtitle">Embracing the path to GREATNESS</p>
             </div>
             
             <div class="about-content">
-                <p>The Godded Seed Confab is a transformative gathering designed to awaken the greatness within every participant. This powerful event will equip you with the tools, mindset, and connections needed to fulfill your divine purpose.</p>
-                <p>Whether you're an entrepreneur, creative, or purpose-driven individual, this confab offers life-changing insights, powerful networking opportunities, and spiritual nourishment to help you grow into your full potential.</p>
+                <p>The Godded Seed Confab is a transformative gathering designed to unlock your potential and guide you on the path to GREATNESS. This event brings together visionaries, thought leaders, and individuals committed to personal and professional excellence.</p>
+                <p>Whether you're seeking personal growth, professional development, or spiritual enlightenment, this conference offers a unique opportunity to connect with like-minded individuals and gain insights that will propel you forward in your journey.</p>
             </div>
         </div>
     </section>
@@ -646,7 +639,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Featured Speakers</h2>
-                <p class="section-subtitle">Learn from visionaries and change-makers</p>
+                <p class="section-subtitle">Learn from inspiring leaders and mentors</p>
             </div>
             
             <div class="speakers-grid">
@@ -654,9 +647,9 @@
                 <div class="speaker-card">
                     <div class="speaker-img" style="background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
                     <div class="speaker-info">
-                        <h3>Dr. Grace Williams</h3>
-                        <div class="role">Purpose Coach</div>
-                        <p>International speaker and author specializing in personal transformation and spiritual growth.</p>
+                        <h3>Dunamis Shiloh Okonwor</h3>
+                        <div class="role">Event Organizer, Godded Seed</div>
+                        <p>Visionary leader and founder of Godded Seed, dedicated to empowering individuals to achieve greatness.</p>
                     </div>
                 </div>
                 
@@ -664,9 +657,9 @@
                 <div class="speaker-card">
                     <div class="speaker-img" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
                     <div class="speaker-info">
-                        <h3>Pastor David Okon</h3>
-                        <div class="role">Kingdom Entrepreneur</div>
-                        <p>Founder of multiple successful businesses with a mission to empower others.</p>
+                        <h3>Coming Soon</h3>
+                        <div class="role">Featured Speaker</div>
+                        <p>Details about our special guest speakers will be announced soon.</p>
                     </div>
                 </div>
                 
@@ -674,9 +667,9 @@
                 <div class="speaker-card">
                     <div class="speaker-img" style="background-image: url('https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
                     <div class="speaker-info">
-                        <h3>Minister Sarah Johnson</h3>
-                        <div class="role">Worship Leader</div>
-                        <p>Anointed worship minister with a calling to usher people into God's presence.</p>
+                        <h3>Coming Soon</h3>
+                        <div class="role">Featured Speaker</div>
+                        <p>Details about our special guest speakers will be announced soon.</p>
                     </div>
                 </div>
             </div>
@@ -688,10 +681,10 @@
         <div class="container">
             <div class="register-content">
                 <h2>Secure Your Seat</h2>
-                <p>Limited spaces available for this life-changing experience! Join us as we explore the theme of GREATNESS and unlock your divine potential.</p>
+                <p>Don't miss this transformative experience! Join us at the Godded Seed Confab to embark on your journey to GREATNESS. Limited seats available for both Port Harcourt and Lagos events.</p>
                 <div class="btn-container">
-                    <a href="#" class="btn btn-ph">Register for Port Harcourt</a>
-                    <a href="#" class="btn btn-lagos">Register for Lagos</a>
+                    <a href="https://lu.ma/q8fonhk4" class="btn btn-primary">Register for Port Harcourt</a>
+                    <a href="https://lu.ma/5ufh1xlg" class="btn btn-primary">Register for Lagos</a>
                 </div>
             </div>
         </div>
@@ -703,10 +696,9 @@
             <div class="footer-content">
                 <div class="footer-col">
                     <h3 class="footer-title">Godded Seed Confab</h3>
-                    <p>Awakening greatness, transforming lives, and building kingdom-minded leaders.</p>
+                    <p>Empowering individuals to discover and achieve their GREATNESS through transformative experiences.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/goddedseed"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-facebook"></i></a>
                     </div>
@@ -723,21 +715,20 @@
                 </div>
                 
                 <div class="footer-col">
-                    <h3 class="footer-title">Venues</h3>
+                    <h3 class="footer-title">Event Details</h3>
                     <ul class="footer-links">
-                        <li><a href="#">Port Harcourt: Divine Grace Center</a></li>
-                        <li><a href="#">Lagos: Kingdom Arena</a></li>
-                        <li><a href="#">Accommodation</a></li>
-                        <li><a href="#">Travel Information</a></li>
+                        <li>Date: 29th November, 2025</li>
+                        <li>Theme: GREATNESS</li>
+                        <li>Locations: Port Harcourt & Lagos</li>
                     </ul>
                 </div>
                 
                 <div class="footer-col">
                     <h3 class="footer-title">Contact</h3>
                     <ul class="footer-links">
-                        <li><i class="fas fa-envelope"></i> info@goddedseed.org</li>
-                        <li><i class="fas fa-phone"></i> +234 800 123 4567</li>
-                        <li><i class="fas fa-map-marker-alt"></i> Port Harcourt & Lagos, Nigeria</li>
+                        <li><i class="fas fa-envelope"></i> goddedseed@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> 08108630909</li>
+                        <li><i class="fas fa-user"></i> Dunamis Shiloh Okonwor</li>
                     </ul>
                 </div>
             </div>
@@ -774,23 +765,6 @@
                         behavior: 'smooth'
                     });
                 }
-            });
-        });
-        
-        // Button functionality
-        document.querySelectorAll('.btn-ph').forEach(button => {
-            button.addEventListener('click', (e) => {
-                e.preventDefault();
-                // In a real implementation: window.open('https://example.com/ph-registration', '_blank');
-                alert('Redirecting to Port Harcourt registration page...');
-            });
-        });
-        
-        document.querySelectorAll('.btn-lagos').forEach(button => {
-            button.addEventListener('click', (e) => {
-                e.preventDefault();
-                // In a real implementation: window.open('https://example.com/lagos-registration', '_blank');
-                alert('Redirecting to Lagos registration page...');
             });
         });
         
